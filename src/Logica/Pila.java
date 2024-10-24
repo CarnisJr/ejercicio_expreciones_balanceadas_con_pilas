@@ -95,7 +95,11 @@ public class Pila {
         refresh(textArea);
     }
 
-    //Verificar si es balanceada
+    /**
+     * Devuelve un valor booleano dependiendo si la pila esta balanceada
+     * @param pila una pila vacia que sirve como variable auxiliar
+     * @return regresa el estado de la pila (Balanceado = true o No balanceado = false)
+     */
     public boolean isBalanced(Pila pila){
 
         boolean flag = false;
